@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <form name="e_box" action="cgi-bin/encode_64.py" method="POST">
+        <input type="text" id="e_box" name="e_box"><br>
+        <input type="submit" id="e_box" value="Submit">
+    </form>
+
+    <iframe src="http://labbackup.kl.fortilab.net/cgi-bin/encode_64.py"></iframe>
+
+    <form name="d_box" action="cgi-bin/decode_64.py" method="POST">
+        <input type="text" id="d_box" name="d_box"><br>
+        <input type="submit" id="d_box" value="Submit">
+    </form>
+
+    <iframe src="http://labbackup.kl.fortilab.net/cgi-bin/decode_64.py"></iframe>
+
+</body>
+</html>
