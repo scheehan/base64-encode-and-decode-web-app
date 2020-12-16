@@ -9,3 +9,36 @@
     top: 150px;
     left: 50px;
 }
+
+#e_box_sub {
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+#d_box_sub {
+    position: relative;
+    top: 0px;
+    left: 150px;
+}
+
+
+#iframe_1 {
+    position: relative;
+    top: 65px;
+    left: 150px;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+#iframe_2 {
+    position: relative;
+    top: 5px;
+    left: 150px;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}

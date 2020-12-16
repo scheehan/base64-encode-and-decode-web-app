@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <form name="e_box" action="cgi-bin/encode_64.py" method="POST">
-        <input type="text" id="e_box" name="e_box"><br>
-        <input type="submit" id="e_box" value="Submit">
+    <form name="e_box" action="cgi/encode_64.py" method="POST" target="iframe_1">
+        <input type="text" placeholder="encode data" id="e_box" name="e_box"><br>
+        <input type="submit" id="e_box_sub" value="Submit">
     </form>
 
-    <iframe src="http://labbackup.kl.fortilab.net/cgi-bin/encode_64.py"></iframe>
+    <iframe src="" id="iframe_1" name="iframe_1"></iframe>
 
-    <form name="d_box" action="cgi-bin/decode_64.py" method="POST">
-        <input type="text" id="d_box" name="d_box"><br>
-        <input type="submit" id="d_box" value="Submit">
+    <form name="d_box" action="cgi/decode_64.py" method="POST" target="iframe_2">
+        <input type="text" placeholder="decode data" id="d_box" name="d_box"><br>
+        <input type="submit" id="d_box_sub" value="Submit">
     </form>
 
-    <iframe src="http://labbackup.kl.fortilab.net/cgi-bin/decode_64.py"></iframe>
+    <iframe src="" id="iframe_2" name="iframe_2"></iframe>
 
 </body>
 </html>
