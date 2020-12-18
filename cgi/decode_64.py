@@ -4,7 +4,6 @@ import base64
 import cgi
 
 form = cgi.FieldStorage()                                                       #create instance of FieldStorage
-
 d_data = form.getvalue('d_box')                                                 #get submit data from form name d_box
 
 if d_data is None:                                                              #check for nonetype
