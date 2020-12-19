@@ -1,2 +1,2 @@
 # base64_converter
-base64 converter web app
+This is a simple base64 converter web app with python as convert service via cgi
