@@ -1,4 +1,4 @@
 # base64_converter
 This is a simple base64 converter web app with python as convert service via cgi
 
-![Image of screenshot](web UI screenshot.png)
+![Image](web UI screenshot.png)
