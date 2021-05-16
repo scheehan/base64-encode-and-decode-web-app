@@ -2,7 +2,6 @@
 
 import base64
 import cgi
-import django
 
 form = cgi.FieldStorage()                                       #create instance of FieldStorage
 f_data = form.getvalue('e_box')                                 #get submit data from form name e_box
